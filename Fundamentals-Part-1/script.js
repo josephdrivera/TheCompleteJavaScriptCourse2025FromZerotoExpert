@@ -198,7 +198,7 @@ console.log(joseph);
 
 const josephNew = `${firstName} ${job} ${birthYear}`;
 console.log(josephNew);
-*/
+
 
 
 const age = 10; // age in years
@@ -219,3 +219,4 @@ if (birthYear <= 2000) {
   century = 26;
 }
 console.log(century);
+*/
