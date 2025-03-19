@@ -145,7 +145,7 @@ TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.9
 
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
-*/
+
 
 // TEST DATA 1
 console.log('---------- TEST DATA 1 ----------');
@@ -186,3 +186,4 @@ console.log('John\'s BMI:', BMIJohn2);
 // BONUS: Create boolean variable for comparison
 const markHigherBMI2 = BMIMark2 > BMIJohn2;
 console.log('Does Mark have a higher BMI than John?', markHigherBMI2);
+*/
