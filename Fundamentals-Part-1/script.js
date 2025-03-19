@@ -210,3 +210,12 @@ if (isOldEnough) { // if the age is 18 or older
   const yearsLeft = 18 - age;
      console.log(`You are too young to drive.🚫 You need to wait ${yearsLeft} years.`);
 }
+
+const birthYear = 1982;
+let century;
+if (birthYear <= 2000) {
+  century = 25;
+} else {
+  century = 26;
+}
+console.log(century);
