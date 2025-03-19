@@ -219,4 +219,60 @@ if (birthYear <= 2000) {
   century = 26;
 }
 console.log(century);
+
+
+
+
+// TEST DATA 1
+console.log('---------- TEST DATA 1 ----------');
+// Store Mark's and John's mass and height
+const massMark1 = 78;
+const heightMark1 = 1.69;
+const massJohn1 = 92;
+const heightJohn1 = 1.95;
+
+// Calculate BMIs
+const BMIMark1 = massMark1 / (heightMark1 * heightMark1);
+const BMIJohn1 = massJohn1 / (heightJohn1 * heightJohn1);
+
+// Log BMI values
+console.log('Mark\'s BMI:', BMIMark1);
+console.log('John\'s BMI:', BMIJohn1);
+
+// BONUS: Create boolean variable for comparison
+const markHigherBMI1 = BMIMark1 > BMIJohn1;
+console.log('Does Mark have a higher BMI than John?', markHigherBMI1);
+
+// TEST DATA 2
+console.log('---------- TEST DATA 2 ----------');
+// Store Mark's and John's mass and height
+const massMark2 = 95;
+const heightMark2 = 1.88;
+const massJohn2 = 85;
+const heightJohn2 = 1.76;
+
+// Calculate BMIs
+const BMIMark2 = massMark2 / (heightMark2 * heightMark2);
+const BMIJohn2 = massJohn2 / (heightJohn2 * heightJohn2);
+
+// Log BMI values
+console.log('Mark\'s BMI:', BMIMark2);
+console.log('John\'s BMI:', BMIJohn2);
+
+// BONUS: Create boolean variable for comparison
+const markHigherBMI2 = BMIMark2 > BMIJohn2;
+console.log('Does Mark have a higher BMI than John?', markHigherBMI2);
+
+// Print nice output with template literals
+if (markHigherBMI1) {
+  console.log(`Mark's BMI (${BMIMark1}) is higher than John's (${BMIJohn1})!`);
+} else {
+  console.log(`John's BMI (${BMIJohn1}) is higher than Mark's (${BMIMark1})!`);
+}
+
+if (markHigherBMI2) {
+  console.log(`Mark's BMI (${BMIMark2}) is higher than John's (${BMIJohn2})!`);
+} else {
+  console.log(`John's BMI (${BMIJohn2}) is higher than Mark's (${BMIMark2})!`);
+}
 */
