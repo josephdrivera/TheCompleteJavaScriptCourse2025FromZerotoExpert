@@ -97,7 +97,7 @@ console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
 console.log(isFullAge);
-*/
+
 
 // Operator Precedence
 const now = 2037;
@@ -122,3 +122,67 @@ console.log(y);
 
 console.log(3 * 5 - 10);
 console.log(3 * (5 - 10));
+*/
+
+
+// Coding Challenge #1
+
+/*
+CHALLENGE #1
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height) (mass in kg and height in meters).
+
+Your task is to write some code to help them:
+
+Store Mark's and John's mass and height in variables called massMark, heightMark, massJohn and heightJohn.
+
+Calculate both their BMIs using the formula, and store the results in two variables called BMIMark and BMIJohn.
+
+Log the value of BMIMark and BMIJohn to the console.
+
+BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a higher BMI than John. Log it to the console too
+
+TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
+
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+
+*/
+
+// TEST DATA 1
+console.log('---------- TEST DATA 1 ----------');
+// Store Mark's and John's mass and height
+const massMark1 = 78;
+const heightMark1 = 1.69;
+const massJohn1 = 92;
+const heightJohn1 = 1.95;
+
+// Calculate BMIs
+const BMIMark1 = massMark1 / (heightMark1 * heightMark1);
+const BMIJohn1 = massJohn1 / (heightJohn1 * heightJohn1);
+
+// Log BMI values
+console.log('Mark\'s BMI:', BMIMark1);
+console.log('John\'s BMI:', BMIJohn1);
+
+// BONUS: Create boolean variable for comparison
+const markHigherBMI1 = BMIMark1 > BMIJohn1;
+console.log('Does Mark have a higher BMI than John?', markHigherBMI1);
+
+// TEST DATA 2
+console.log('---------- TEST DATA 2 ----------');
+// Store Mark's and John's mass and height
+const massMark2 = 95;
+const heightMark2 = 1.88;
+const massJohn2 = 85;
+const heightJohn2 = 1.76;
+
+// Calculate BMIs
+const BMIMark2 = massMark2 / (heightMark2 * heightMark2);
+const BMIJohn2 = massJohn2 / (heightJohn2 * heightJohn2);
+
+// Log BMI values
+console.log('Mark\'s BMI:', BMIMark2);
+console.log('John\'s BMI:', BMIJohn2);
+
+// BONUS: Create boolean variable for comparison
+const markHigherBMI2 = BMIMark2 > BMIJohn2;
+console.log('Does Mark have a higher BMI than John?', markHigherBMI2);
