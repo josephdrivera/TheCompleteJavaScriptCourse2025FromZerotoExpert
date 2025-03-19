@@ -187,3 +187,16 @@ console.log('John\'s BMI:', BMIJohn2);
 const markHigherBMI2 = BMIMark2 > BMIJohn2;
 console.log('Does Mark have a higher BMI than John?', markHigherBMI2);
 */
+
+/*
+const firstName = 'Joseph';
+const job = 'programmer';
+const birthYear = 1982;
+
+const joseph = firstName + ' ' + job + ' ' + birthYear;
+console.log(joseph);
+
+const josephNew = `${firstName} ${job} ${birthYear}`;
+console.log(josephNew);
+*/
+
