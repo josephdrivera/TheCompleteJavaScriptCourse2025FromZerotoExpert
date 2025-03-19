@@ -200,3 +200,13 @@ const josephNew = `${firstName} ${job} ${birthYear}`;
 console.log(josephNew);
 */
 
+
+const age = 10; // age in years
+const isOldEnough = age >= 18; // is the age 18 or older?
+
+if (isOldEnough) { // if the age is 18 or older
+  console.log('You are old enough to drive.👍🏿');
+} else { // if the age is less than 18
+  const yearsLeft = 18 - age;
+     console.log(`You are too young to drive.🚫 You need to wait ${yearsLeft} years.`);
+}
