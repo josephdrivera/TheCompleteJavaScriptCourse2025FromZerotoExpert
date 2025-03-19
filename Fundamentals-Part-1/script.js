@@ -113,3 +113,12 @@ console.log(25 - (10 - 5));
 console.log(3 * 5 - 10);
 
 console.log(3 * (5 - 10));
+
+let y = 25 - 10 - 5;
+console.log(y);
+
+y = 25 - (10 - 5);
+console.log(y);
+
+console.log(3 * 5 - 10);
+console.log(3 * (5 - 10));
