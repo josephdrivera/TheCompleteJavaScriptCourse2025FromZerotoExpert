@@ -276,3 +276,14 @@ if (markHigherBMI2) {
   console.log(`John's BMI (${BMIJohn2}) is higher than Mark's (${BMIMark2})!`);
 }
 */
+
+const inputYear = 2025;
+const inputAge = 43;
+const inputCountry = 'USA';
+
+console.log(inputYear - inputAge);
+console.log(inputCountry);
+console.log(inputAge);
+console.log(inputYear);
+console.log(inputCountry);
+
